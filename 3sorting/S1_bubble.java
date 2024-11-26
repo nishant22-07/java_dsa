@@ -20,7 +20,7 @@ public class S1_bubble {
                     swapped = true;
                 }
             }
-            if(swapped == false){
+            if(!swapped){
                 break;
             }
 
