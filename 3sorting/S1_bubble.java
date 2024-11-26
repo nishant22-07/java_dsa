@@ -7,16 +7,16 @@ public class S1_bubble {
         System.out.println(Arrays.toString(arr));
 
     }
-    static void bubblesort(int[] arr){
+    static void bubblesort(int[] Array){
         boolean swapped;
-        for (int i = 1; i < arr.length-1 ; i++) {
+        for (int i = 1; i < Array.length-1 ; i++) {
             swapped = false;
             //inner loop
-            for (int j = 1; j < arr.length -i ; j++) {
-                if(arr[j]<arr[j-1]){
-                    int temp = arr[j];
-                    arr[j] = arr[j-1];
-                    arr[j-1] = temp;
+            for (int j = 1; j < Array.length -i ; j++) {
+                if(Array[j]<Array[j-1]){
+                    int temp = Array[j];
+                    Array[j] = Array[j-1];
+                    Array[j-1] = temp;
                     swapped = true;
                 }
             }
