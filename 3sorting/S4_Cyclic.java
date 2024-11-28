@@ -7,10 +7,23 @@ public class S4_Cyclic {
         cyclic_sort(arr);
         System.out.println(Arrays.toString(arr));
     }
-    static void cyclic_sort(int[] arr){
-        for (int i = 0; i <arr.length ; i++) {
-            if(arr[i] != i+1 ){
-                swap(arr,i,arr[i]-1);
+
+    // using for loop
+//    static void cyclic_sort(int[] arr){
+//        for (int i = 0; i <arr.length ; i++) {
+//            if(arr[i] != i+1 ){
+//                swap(arr,i,arr[i]-1);
+//            }
+//        }
+//    }
+    //using while loop
+    static void cyclic_sort(int[] arr) {
+        int i = 0;
+        while (i <arr.length) {
+            if (arr[i] != i+1) {
+                swap(arr, i, arr[i]-1);
+            } else {
+                i++;
             }
         }
     }
