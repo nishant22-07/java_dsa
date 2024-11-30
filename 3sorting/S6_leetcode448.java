@@ -2,7 +2,7 @@
 //https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 // GOOGLE COMPANY
 import java.util.ArrayList;
-public class S6_leetcode{
+public class S6_leetcode448 {
     public static void main(String[] args) {
         int[] arr = {4,3,2,7,8,2,3,1};
         ArrayList<Integer> ans = findDisappearedNumbers(arr);

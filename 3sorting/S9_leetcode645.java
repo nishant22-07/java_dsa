@@ -2,7 +2,7 @@
 //https://leetcode.com/problems/set-mismatch/description/
 
 import java.util.Arrays;
-public class S9_leetcode{
+public class S9_leetcode645 {
     public static void main(String[] args) {
         int[] arr = {1,1};
         int[] ans = findErrorNums(arr);

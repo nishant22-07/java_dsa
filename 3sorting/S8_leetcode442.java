@@ -3,7 +3,7 @@
 // https://leetcode.com/problems/find-all-duplicates-in-an-array/
 import java.util.List;
 import java.util.ArrayList;
-class S8_leetcode {
+class S8_leetcode442 {
     public static void main(String[] args) {
         int[] arr = {4,3,2,7,8,2,3,1};
         List<Integer> ans = findDuplicates(arr);
