@@ -14,7 +14,7 @@ public class S6_leetcode{
         while (i < nums.length) {
             int correct = nums[i]-1;
             if (nums[i] < nums.length && nums[i] != nums[correct]) {
-                swap(nums, i, correct;
+                swap(nums, i, correct);
             } else {
                 i++; 
             }
