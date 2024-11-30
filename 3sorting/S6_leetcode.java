@@ -13,16 +13,16 @@ public class S6_leetcode{
         int i = 0;
         while (i < nums.length) {
             int correct = nums[i]-1;
-            if (nums[i] < nums.length && nums[i] != nums[correct]) {
+            if (nums[i] > 0 && nums[i] <= nums.length && nums[i] != nums[correct]) {
                 swap(nums, i, correct);
             } else {
                 i++; 
             }
         }
-        ArrayList<Integer> ans = new ArrayList<Integer>();
-        for ( i = 0; i < nums.length; i++) {
-            if(nums[i]!=i+1){
-                ans.add(i+1);
+        ArrayList<Integer> ans = new ArrayList<>();
+        for (int  index = 0; index < nums.length; index++) {
+            if(nums[index]!=index+1){
+                ans.add(index+1);
             }
         }return ans;
     }
