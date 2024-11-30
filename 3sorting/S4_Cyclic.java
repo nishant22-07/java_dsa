@@ -17,11 +17,12 @@ public class S4_Cyclic {
 //        }
 //    }
     //using while loop
-    static void cyclic_sort(int[] arr) {
+    static void cyclic_sort(int[] nums) {
         int i = 0;
-        while (i <arr.length) {
-            if (arr[i] != i+1) {
-                swap(arr, i, arr[i]-1);
+        while (i < nums.length) {
+            int correct = nums[i]-1;
+            if (nums[i] < nums.length && nums[i] != nums[correct]) {
+                swap(nums, i, correct);
             } else {
                 i++;
             }
