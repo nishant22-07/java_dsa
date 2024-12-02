@@ -1,0 +1,16 @@
+Here is a list of common placeholders (format specifiers) used in Java, especially with String.format:
+
+%s - String
+%d - Decimal integer
+%f - Floating-point number
+%e - Scientific notation (lowercase)
+%E - Scientific notation (uppercase)
+%g - General format (decimal or scientific notation, based on value)
+%x - Hexadecimal integer (lowercase)
+%X - Hexadecimal integer (uppercase)
+%o - Octal integer
+%c - Character
+%b - Boolean
+%h - Hash code of an object (in hexadecimal)
+%% - Literal % symbol
+%n - Platform-specific newline
