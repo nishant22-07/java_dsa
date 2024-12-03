@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/1arrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2searchingAlgo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/3sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5patterns" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
