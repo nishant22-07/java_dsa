@@ -1,6 +1,7 @@
 public class R4_nthFinonacciNo {
     public static void main(String[] args) {
-        System.out.println(fibonacci(4));
+        int ans  = 4 ;
+        System.out.println(fibonacci(ans));
 
     }
     static int fibonacci(int n){
