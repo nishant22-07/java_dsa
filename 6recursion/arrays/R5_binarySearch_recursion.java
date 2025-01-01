@@ -1,3 +1,5 @@
+package arrays;
+
 public class R5_binarySearch_recursion {
     public static void main(String[] args) {
         int[] arr = {-3,-1,0,1,3,4,5,6,9,76};
