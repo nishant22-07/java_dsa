@@ -2,7 +2,7 @@ package arrays.sorting;
 
 import java.util.Arrays;
 
-public class bubble_sort {
+public class R20_bubble_sort {
     public static void main(String[] args) {
         int[] arr = {6,3,2,1,7,9,5};
         bubble_sort(arr,arr.length-1,0);
