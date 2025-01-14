@@ -1,6 +1,6 @@
 public class R4_nthFinonacciNo {
     public static void main(String[] args) {
-        int ans  = 4 ;
+        int ans  = 7 ;
         System.out.println(fibonacci(ans));
 
     }
