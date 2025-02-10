@@ -5,6 +5,7 @@ public class customlLinkedList {
     private node head;
     private node tail;
     private int size;
+
     private class node {
         private int value;
         private node next;
