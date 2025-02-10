@@ -9,6 +9,7 @@ public class R15_isArrSorted {
         int[] arr1 = {1, 2, 3, 5, 16, 8};
         System.out.println(sorted(arr1,  0));
     }
+
     static boolean arrSorted(int[] arr){
         return helper(arr,0);
 
