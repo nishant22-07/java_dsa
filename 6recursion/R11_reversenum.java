@@ -2,8 +2,8 @@ public class R11_reversenum {
     public static void main(String[] args) {
        reverseNum1(1347);
         System.out.println(sum);
-        int revNum = revnum2(986750);
-        System.out.println(revNum);
+//        int revNum = revnum2(986750);
+//        System.out.println(revNum);
     }
     static int sum = 0;
     static void reverseNum1(int n){
