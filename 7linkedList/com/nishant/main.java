@@ -4,22 +4,32 @@ import java.util.LinkedList;
 
 public class main {
     public static void main(String[] args) {
-        LinkedList<Integer> list = new LinkedList();
-        list.add(12);
-        list.add(15);
-        list.add(5);
-//        list.addFirst(25);
-//        list.addLast(45);
-        System.out.println(list);
-        System.out.println( list.get(2));
+//    customlLinkedList list  = new customlLinkedList();
+//    list.insertFirst(1);
+//    list.insertFirst(2);
+//    list.insertFirst(3);
+//    list.insertFirst(4);
+//    list.display();
+//    list.insertLast(10);
+//    list.display();
+//    list.insert(56,2);
+//    list.display();
+//    System.out.println("Deleted first item is ="+list.deleteFirst());
+//    list.display();
+//    System.out.println("Deleted last item is ="+list.deleteLast());
+//    list.display();
+//    System.out.println("Deleted node value is "+list.delete(5));
+//    list.display();
+
+        customDoublyLinkedList list = new customDoublyLinkedList();
+        list.insertFirst(1);
+        list.insertFirst(2);
+        list.insertFirst(3);
+        list.insertFirst(4);
+        list.insertFirst(5);
+        list.display();
 
 
-//        list.insert(45);
-//        list.insert(12);
-//        list.insert(78);
-//        list.insertAtStart(25);
-//        list.insertAt(2, 55);
-//        list.deleteAt(2);
-//        list.show();
+
     }
 }

@@ -1,7 +1,7 @@
 public class S8_OrderAgnostics {
     public static void main(String[] args) {
         //sorted array
-        int[] arr = {22,19,18,9,6,4,2,1,0,-2,-4,8};
+        int[] arr = {22,19,18,9,6,4,2,1,0,-2,-4};
         int target = 45;//target elemen to find
         int index = binary_search(arr,target);
         System.out.println("the index of the target ("+target+") is = "+index);
