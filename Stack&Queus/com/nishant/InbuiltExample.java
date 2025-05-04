@@ -5,7 +5,7 @@ import java.util.*;
 
 public class InbuiltExample {
     public static void main(String[] args) {
-//        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stack = new Stack<>();
 //        stack.push(22);
 //        stack.push(7);
 //        stack.push(2004);
