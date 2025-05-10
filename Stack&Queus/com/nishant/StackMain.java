@@ -11,7 +11,7 @@ public class StackMain {
         stack.push(7);
         stack.push(2004);
         stack.push(2004);
-//        System.out.println(stack);
+
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
@@ -19,5 +19,7 @@ public class StackMain {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
+        stack.display();
+
     }
 }

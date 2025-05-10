@@ -14,6 +14,14 @@ public class CustomeStack {
         this.data = new int[size];
     }
 
+    boolean isFull() {
+        return ptr ==data.length-1; // ptr is at last index
+    }
+
+    private boolean isEmpty(){
+        return  ptr == -1;
+    }
+
     public boolean push(int item){
         if(isFull()){
             System.out.println("stack is full");
@@ -41,12 +49,13 @@ public class CustomeStack {
         return data[ptr];
     }
 
-    boolean isFull() {
-        return ptr ==data.length-1; // ptr is at last index
+    public void display(){
+        for (int i = 0; i < data.length; i++) {
+            System.out.print(data[i]+ " ");
+
+        }
     }
 
-    private boolean isEmpty(){
-        return  ptr == -1;
-    }
+
 
 }
