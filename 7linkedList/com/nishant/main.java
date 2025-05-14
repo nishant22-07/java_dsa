@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class main {
     public static void main(String[] args) {
-//    customlLinkedList list  = new customlLinkedList();
+//    customlLinkedList list1  = new customlLinkedList();
 //    list.insertFirst(1);
 //    list.insertFirst(2);
 //    list.insertFirst(3);
@@ -27,7 +27,18 @@ public class main {
         list.insertFirst(3);
         list.insertFirst(4);
         list.insertFirst(5);
+        list.insertFirst(7);
+        list.insertLast(8);
+        list.findNode(7);
         list.display();
+
+
+
+
+
+
+
+
 
 
 

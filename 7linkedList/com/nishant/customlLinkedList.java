@@ -6,6 +6,9 @@ public class customlLinkedList {
     private Node tail;
     private int size;
 
+
+
+
     public customlLinkedList() {
         this.size = 0;
     }
@@ -19,12 +22,13 @@ public class customlLinkedList {
         size++;
     }
     public void insertLast(int val){
+        if (tail == null){
+            insertFirst(val);
+            return;
+        }
         Node node = new Node(val);
         tail.next = node;
         tail = node;
-        if (tail == null){
-            insertFirst(val);
-        }
         size++;
     }
 
@@ -75,7 +79,8 @@ public class customlLinkedList {
         Node secondLast = getNode(size-2);
         tail = secondLast;
         tail.next = null;
-        return val;
+        size--;
+         return val;
      }
 
 
@@ -87,8 +92,10 @@ public class customlLinkedList {
             return deleteLast();
         }
         Node previousNode = getNode(index-1);
-        previousNode.next =previousNode.next.next;
-        return previousNode.next.value;
+         Node toDelete = previousNode.next;
+         previousNode.next = toDelete.next;
+         size--;
+         return toDelete.value;
 
      }
      public Node getNode(int index){
@@ -98,6 +105,7 @@ public class customlLinkedList {
          }
          return node;
     }
+
     public Node findNode(int value){
         Node node = head;
         while(node!=null){
@@ -111,7 +119,8 @@ public class customlLinkedList {
 
 
 
-    private class Node {
+    private static class Node {
+
         private int value;
         private Node next;
 
