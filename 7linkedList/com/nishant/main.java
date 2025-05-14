@@ -1,7 +1,5 @@
 package com.nishant;
 
-import java.util.LinkedList;
-
 public class main {
     public static void main(String[] args) {
 //    customlLinkedList list1  = new customlLinkedList();
@@ -29,7 +27,7 @@ public class main {
         list.insertFirst(5);
         list.insertFirst(7);
         list.insertLast(8);
-        list.findNode(7);
+        list.insert(8,98);
         list.display();
 
 
