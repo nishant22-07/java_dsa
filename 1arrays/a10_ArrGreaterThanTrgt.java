@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+
 public class a10_ArrGreaterThanTrgt {
 
 
@@ -26,13 +28,14 @@ public class a10_ArrGreaterThanTrgt {
             int target = 5;
 
             // Get the array of elements greater than the target
-            int[] result = getElementsGreaterThanTarget(numbers, target);
 
             // Print the result
-            System.out.print("Elements greater than " + target + ": ");
-            for (int num : result) {
-                System.out.print(num + " ");
-            }
+
+            System.out.println(Arrays.toString(getElementsGreaterThanTarget(numbers, target)));
+//            System.out.print("Elements greater than " + target + ": ");
+//            for (int num : result) {
+//                System.out.print(num + " ");
+//            }
         }
 
 

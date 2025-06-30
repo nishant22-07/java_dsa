@@ -31,8 +31,8 @@ public class S8_OrderAgnostics {
                 else if (target > arr[mid]) {
                     start = mid +1;
                 }
-                }
-                else{
+            }
+            else{
                 // if target is smaller than mid
                 if (target < arr[mid] ) {
                     start = mid +1;

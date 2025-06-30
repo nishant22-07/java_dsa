@@ -1,7 +1,7 @@
 public class S8_binarysearch {
     public static void main(String[] args) {
         //sorted array
-        int[] arr = {-7,-5,-1,0,2,3,4,5,7,8,9,10,13,16,22};
+        int[] arr = {0,-5,-1,0,2,3,4,5,7,8,9,10,13,16,22};
         int target = -7;//target elemen to find
         int index = binary_search(arr,target);
         System.out.println("the index of the target ("+target+") is = "+index);

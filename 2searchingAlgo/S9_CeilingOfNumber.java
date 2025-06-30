@@ -2,7 +2,7 @@ public class S9_CeilingOfNumber {
     public static void main(String[] args) {
         //sorted array
         int[] arr = {-7,-5,-1,0,2,3,4,5,7,8,9,10,13,16,22};
-        int target = 21;//target element to find
+        int target = 15;//target element to find
         int index = celing_of_number(arr,target);
         System.out.println("the index of the celing of  ("+target+") is = "+index);
     }
