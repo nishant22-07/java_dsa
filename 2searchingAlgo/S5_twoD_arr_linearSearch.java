@@ -8,10 +8,10 @@ public class S5_twoD_arr_linearSearch {
                 {22,8,9}
         };
 
-        // FOR FINDING THE TARGET ELEMENT IN THE TWO D ARRAY
-//        int target = 8;
-//        int[] ans = linear_search( arr,target);
-//        System.out.println(Arrays.toString(ans));
+//         FOR FINDING THE TARGET ELEMENT IN THE TWO D ARRAY
+        int target = 8;
+        int[] ans = linear_search( arr,target);
+        System.out.println(Arrays.toString(ans));
 
 
         // FOR FINDING THE MAX NUMBER IN ARRAY

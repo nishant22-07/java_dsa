@@ -3,7 +3,7 @@
 public class S11_leetcode {
     public static void main(String[] args) {
         char[] letters = {'c','d','f','j'};
-        char target = 'f';
+        char target = 'd';
         char ans  = nextGreatestLetter(letters,target);
         System.out.println(ans);
 

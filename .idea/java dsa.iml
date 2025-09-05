@@ -8,6 +8,11 @@
       <sourceFolder url="file://$MODULE_DIR$/3sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/4strings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/5patterns" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7linkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Stack&amp;Queus" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeForces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HashMaps" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

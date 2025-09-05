@@ -1,8 +1,10 @@
 public class S10_floor_of_number {
     public static void main(String[] args) {
         //sorted array
-        int[] arr = {-7,-5,-1,0,2,3,4,5,7,8,9,10,13,16,22};
+        int[] arr = {-7,-5,-1,0,2,3,4,5,7,8,9,16,22};
         int target = 15;//target element to find
+        System.out.println(arr.length);
+
         int index = floor_of_number(arr,target);
         System.out.println("the index of the floor of  ("+target+") is = "+index);
     }
