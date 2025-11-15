@@ -8,20 +8,15 @@ public class S1_bubble {
 
     }
     static void bubblesort(int[] Array){
-        boolean swapped;
         for (int i = 1; i < Array.length-1 ; i++) {
-            swapped = false;
+
             //inner loop
             for (int j = 1; j < Array.length -i ; j++) {
                 if(Array[j]<Array[j-1]){
                     int temp = Array[j];
                     Array[j] = Array[j-1];
                     Array[j-1] = temp;
-                    swapped = true;
                 }
-            }
-            if(!swapped){
-                break;
             }
 
         }
