@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CodeForces" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HashMaps" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Sliding Window and two pointer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/trees" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
